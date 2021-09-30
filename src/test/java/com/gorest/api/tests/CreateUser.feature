@@ -1,11 +1,4 @@
-#Simple open api get test
-Feature: Simple GET and POST API tests
-
-  Scenario: Health Check of publicapis
-    Given url 'https://api.publicapis.org/health'
-    When method get
-    Then status 200
-    And match response == {"alive": true}
+Feature: Test Go Rest API - Create user POST calls.
 
   Scenario: Create One User using POST call.
     Given url 'https://gorest.co.in/public/v1/users'

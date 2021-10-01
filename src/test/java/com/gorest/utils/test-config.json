@@ -1,0 +1,8 @@
+{
+   "base_Url":"https://gorest.co.in/",
+   "file_path":"SomeFIlePath",
+   "statusCode":200,
+   "get_Url" : "public/v1/users",
+   "post_Url": "https://gorest.co.in/public/v1/users",
+   "Authorization": "Bearer 4f2ed141520da56f691eddb09761d9e0d7ae1c40b1438867629f2ee476a3a5e7"
+}
